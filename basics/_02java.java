@@ -7,7 +7,8 @@ public class _02java {
     // 2.no spaces or special characters except _ and $
     // 3.cannot use Java reserved keywords
     // 4.use camelCase like studentName, studentAge
-
+    // 5. In Java, you must initialize local variables before use. Using an
+    // uninitialized local variable causes a compiler error.
     // Data Types in Java
 
     // Primitive Data Types:
@@ -82,7 +83,6 @@ public class _02java {
     for (int n : num) {
       System.out.println(n);
     }
-
 
     // class is a blueprint for creating objects
     class Student {
