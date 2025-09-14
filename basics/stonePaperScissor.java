@@ -30,7 +30,7 @@ public class stonePaperScissor {
     }
     sc.close();
 
-    sc.close();
+
 
   }
 
