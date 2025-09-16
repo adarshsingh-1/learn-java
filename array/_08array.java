@@ -23,6 +23,8 @@ public class _08array {
       if (max < arr[i]) {
         secMax = max;
         max = arr[i];
+      } else if (arr[i] > secMax && arr[i] != max) {
+        secMax = arr[i];
       }
     }
     System.out.println("the second largest element is " + secMax);
