@@ -2,6 +2,9 @@ package strings;
 
 public class _03string {
   public static void main(String[] args) {
+    //palindrome check
+
+
     String str = "madam";
     int n = str.length();
     boolean isPalindrome = true;

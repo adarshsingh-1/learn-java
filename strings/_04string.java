@@ -2,6 +2,9 @@ package strings;
 
 public class _04string {
   public static void main(String[] args) {
+    //number of vowels and consonants
+
+
     String str = "HelloWorld";
     str = str.toLowerCase();
     int vowels = 0, consonants = 0;

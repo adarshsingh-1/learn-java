@@ -2,6 +2,8 @@ package strings;
 
 public class _05string {
   public static void main(String[] args) {
+    //how to reverse a string 
+    
     String str = "Java";
     String rev = "";
 

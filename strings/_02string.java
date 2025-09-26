@@ -13,6 +13,6 @@ public class _02string {
     System.out.println("Uppercase: " + s.toUpperCase());
     System.out.println("Lowercase: " + s.toLowerCase());
 
-  }
+}
 
 }
