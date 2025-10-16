@@ -4,6 +4,8 @@ import java.util.*;
 
 public class _06string {
   public static void main(String[] args) {
+    //how to use string buidler
+
     StringBuilder sb = new StringBuilder();
     Scanner sc = new Scanner(System.in);
 
