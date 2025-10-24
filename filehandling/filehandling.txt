@@ -1,0 +1,20 @@
+File handling :
+Streams are basically Abstract classes in Java
+Streams - sequences of data
+here data can be of two types:
+1. Byte streams - used to handle binary data (images, audio files, etc.)
+2. Character streams - used to handle text data (plain text files, etc.)
+
+java implements these withon the class hierarchy:
+1. InputStream and OutputStream - for byte streams
+   - FileInputStream and FileOutputStream - for reading from and writing to files in byte format
+   - BufferedInputStream and BufferedOutputStream - for efficient reading and writing of bytes using a buffer
+   - DataInputStream and DataOutputStream - for reading and writing primitive data types
+2. Reader and Writer - for character streams
+   - FileReader and FileWriter - for reading from and writing to files in character format
+   - BufferedReader and BufferedWriter - for efficient reading and writing of characters using a buffer
+   - PrintWriter - for writing formatted text to a file
+
+I/O Exception Handling:
+File handling operations can throw IOExceptions, so it's important to handle these exceptions using try-catch blocks or by declaring them in the method signature.
+
